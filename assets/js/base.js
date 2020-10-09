@@ -16,7 +16,7 @@ $.ajaxPrefilter(function (options) {
     //   console.log('执行了');
     // console.log(res);
     // 在 complete 回调函数中， 可以使用 res.responseJSON 拿到服务器响应回来的数据
-    console.log(res.responseJSON.status);
+    // console.log(res.responseJSON.status);
     if (
       res.responseJSON.status === 1 &&
       res.responseJSON.message === "身份认证失败！"
